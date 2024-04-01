@@ -443,6 +443,11 @@ html {
   margin-top: 120px;
   overflow-x: hidden;
 }
+.fh5co-bottom-contact {
+  width: 100%;
+  height: 572px;
+  overflow-x: hidden;
+}
 .fh5co-bottom-outer .fh5co-bottom-inner {
   margin-top: 270px;
 }
