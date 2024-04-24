@@ -2,6 +2,15 @@
 <html lang="en">
 	<head profile="http://www.w3.org/2005/10/profile">
 	<title>OnTrack CarPlay app &mdash; Realtime OBD data within CarPlay</title>
+	<script>
+        window.onload = function() {
+            // Detect if the user is using an iPhone
+            if (/iPhone/i.test(navigator.userAgent)) {
+                // Redirect to the App Store link
+                window.location.href = 'https://apps.apple.com/app/apple-store/id6446315145?pt=125421967&ct=WebHome&mt=8';
+            }
+        };
+    </script>
 	<link rel="icon" type="image/png" href="img/fav.png"/>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
